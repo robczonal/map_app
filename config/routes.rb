@@ -4,6 +4,8 @@ MapApp::Application.routes.draw do
   match '/signup',	to: 'users#new',		via: 'get'
   match '/help',	to: 'static_pages#help',	via: 'get'
   match '/about',	to: 'static_pages#about',	via: 'get'
+  match '/business', to: 'static_pages#business', via: 'get'
+  match '/career', to: 'static_pages#career', via: 'get'
   match '/contact',	to: 'static_pages#contact',	via: 'get'
 
 root :to => "static_pages#home"

@@ -1,10 +1,12 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="navbar-inner">
     <div class="container">
-      <%= link_to "Map App", root_path, id: "logo" %>
+      <%= link_to "Aurora", root_path, id: "logo" %>
       <nav>
         <ul class="nav pull-right">
           <li><%= link_to "Home",    root_path %></li>
+          <li><%= link_to "For Businesses",   business_path %></li>
+          <li><%= link_to "For Career Builders",   career_path %></li>
           <li><%= link_to "Help",    help_path %></li>
           <li><%= link_to "Sign in", '#'  %></li>
         </ul>
